@@ -45,6 +45,11 @@ h1{
     font-size: 25px;
     cursor: pointer;
 }
+
+h1:hover{
+color: hsl(47, 88%, 63%);
+
+}
 p{
    color: hsl(0, 0%, 42%);
    line-height: 1.5;
