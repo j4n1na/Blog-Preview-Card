@@ -5,22 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Blog preview card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
   <div id="blog-preview-card">
 
-    <img src="assets/images/illustration-article.svg" alt="illustration-article">
+    <img src="assets/images/illustration-article.svg" alt="illustration-article" id="main-img">
 
-      <div id="Learning">Learning</div>
+      <div id="learning">Learning</div>
 
  <div id="date">Published 21 Dec 2023</div> 
 
@@ -30,10 +29,11 @@
 
 
 
-<img src="assets/images/image-avatar.webp" alt="image-avatar">
+  <div id="author">
+  <img src="assets/images/image-avatar.webp" alt="Avatar" id="avatar-img">
   <div id="avatar-name">Greg Hooper</div>
+</div>
 
-  </div>
   
   
 </body>
